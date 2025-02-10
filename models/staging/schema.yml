@@ -1,0 +1,12 @@
+version: 2
+
+
+sources:
+  - name: staging
+    database: heroic-psyche-449618-s3
+    schema: demo_dataset
+
+    tables:
+      - name: yellow_tripdata
+      - name: green_tripdata
+
